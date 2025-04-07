@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\acpdreadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\acpdreadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\controllers\\mercuryfirecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\controllers\\mercuryfirecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\acpddeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\acpddeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\acpdrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\acpdrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\acpdupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\acpdupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\acpdcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\acpdcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|e:\\code_learning\\otherway\\backendexamhub2504\\mercuryfire.api\\mercuryfire.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D96021C-A5F2-4801-AEA3-74531390B3DC}|Mercuryfire.API\\Mercuryfire.API.csproj|solutionrelative:mercuryfire.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MercuryfireController.cs",
               "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\Controllers\\MercuryfireController.cs",
               "RelativeDocumentMoniker": "Mercuryfire.API\\Controllers\\MercuryfireController.cs",
               "ToolTip": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\Controllers\\MercuryfireController.cs",
               "RelativeToolTip": "Mercuryfire.API\\Controllers\\MercuryfireController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwDAAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwKEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T08:27:29.819Z",
               "IsPinned": true,
@@ -44,33 +56,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ACPDDeleteRequest.cs",
+              "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDDeleteRequest.cs",
+              "RelativeDocumentMoniker": "Mercuryfire.API\\ACPDDeleteRequest.cs",
+              "ToolTip": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDDeleteRequest.cs",
+              "RelativeToolTip": "Mercuryfire.API\\ACPDDeleteRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:09:30.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ACPDUpdateRequest.cs",
+              "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDUpdateRequest.cs",
+              "RelativeDocumentMoniker": "Mercuryfire.API\\ACPDUpdateRequest.cs",
+              "ToolTip": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDUpdateRequest.cs",
+              "RelativeToolTip": "Mercuryfire.API\\ACPDUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:08:45.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ACPDReadRequest.cs",
+              "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDReadRequest.cs",
+              "RelativeDocumentMoniker": "Mercuryfire.API\\ACPDReadRequest.cs",
+              "ToolTip": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDReadRequest.cs",
+              "RelativeToolTip": "Mercuryfire.API\\ACPDReadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:05:36.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\Program.cs",
               "RelativeDocumentMoniker": "Mercuryfire.API\\Program.cs",
               "ToolTip": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\Program.cs",
               "RelativeToolTip": "Mercuryfire.API\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T09:50:37.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ACPDRequest.cs",
-              "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDRequest.cs",
-              "RelativeDocumentMoniker": "Mercuryfire.API\\ACPDRequest.cs",
-              "ToolTip": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDRequest.cs",
-              "RelativeToolTip": "Mercuryfire.API\\ACPDRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ACPDCreateRequest.cs",
+              "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDCreateRequest.cs",
+              "RelativeDocumentMoniker": "Mercuryfire.API\\ACPDCreateRequest.cs",
+              "ToolTip": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\ACPDCreateRequest.cs",
+              "RelativeToolTip": "Mercuryfire.API\\ACPDCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T10:04:29.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Code_Learning\\otherway\\BackendExamHub2504\\Mercuryfire.API\\Mercuryfire.API\\appsettings.json",
               "RelativeDocumentMoniker": "Mercuryfire.API\\appsettings.json",

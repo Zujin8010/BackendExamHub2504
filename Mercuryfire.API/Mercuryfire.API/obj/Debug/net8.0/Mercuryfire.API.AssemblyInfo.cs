@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mercuryfire.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87d9b712cac29909830482d99c7b8ef8dbe6f7eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1606b71543135a185b406c091e4f306dd194f8de")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mercuryfire.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mercuryfire.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

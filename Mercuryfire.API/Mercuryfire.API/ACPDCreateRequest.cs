@@ -1,6 +1,6 @@
 ﻿namespace Mercuryfire.API
 {
-    public class ACPDRequest
+    public class ACPDCreateRequest
     {
         public string ACPD_Cname { get; set; }
         public string ACPD_Ename { get; set; }

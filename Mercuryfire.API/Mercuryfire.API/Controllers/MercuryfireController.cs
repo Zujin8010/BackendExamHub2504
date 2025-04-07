@@ -17,7 +17,7 @@ namespace Mercuryfire.API.Controllers
         }
 
         [HttpPost("Create")]
-        public IActionResult Create([FromBody] ACPDRequest input)
+        public IActionResult Create([FromBody] ACPDCreateRequest input)
         {
             string storedProcedure = "dbo.usp_CreateACPD";
             try
@@ -61,8 +61,8 @@ namespace Mercuryfire.API.Controllers
             }
         }
 
-        [HttpGet("Read")]
-        public IActionResult Read([FromBody] ACPDRequest input)
+        [HttpPost("Read")]
+        public IActionResult Read([FromBody] ACPDReadRequest input)
         {
             string storedProcedure = "dbo.usp_ReadACPD";
             try
@@ -75,9 +75,38 @@ namespace Mercuryfire.API.Controllers
                     {
                         command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                        command.Parameters.AddWithValue("@Name", input.ACPD_Sname);
+                        command.Parameters.AddWithValue("@ACPD_SID", input.ACPD_SID);
+                        command.Parameters.AddWithValue("@ACPD_LoginID", input.ACPD_LoginID);
+                        command.Parameters.AddWithValue("@ACPD_Email", input.ACPD_Email);
+                        command.Parameters.AddWithValue("@ACPD_Status", input.ACPD_Status);
 
-                        return Ok($"Create Complete");
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            var result = new List<object>();
+
+                            while (reader.Read())
+                            {
+                                var row = new
+                                {
+                                    ACPD_SID = reader["ACPD_SID"].ToString(),
+                                    ACPD_Cname = reader["ACPD_Cname"].ToString(),
+                                    ACPD_Ename = reader["ACPD_Ename"].ToString(),
+                                    ACPD_Sname = reader["ACPD_Sname"].ToString(),
+                                    ACPD_Email = reader["ACPD_Email"].ToString(),
+                                    ACPD_Status = reader["ACPD_Status"].ToString(),
+                                    ACPD_Stop = reader["ACPD_Stop"].ToString(),
+                                    ACPD_LoginID = reader["ACPD_LoginID"].ToString(),
+                                    ACPD_Memo = reader["ACPD_Memo"].ToString(),
+                                    ACPD_NowDateTime = reader["ACPD_NowDateTime"].ToString(),
+                                    ACPD_NowID = reader["ACPD_NowID"].ToString(),
+                                    ACPD_UPDDateTime = reader["ACPD_UPDDateTime"].ToString(),
+                                    ACPD_UPDID = reader["ACPD_UPDID"].ToString()
+                                };
+
+                                result.Add(row);
+                            }
+                            return Ok(result);
+                        }
                     }
                 }
             }
@@ -88,7 +117,7 @@ namespace Mercuryfire.API.Controllers
         }
 
         [HttpPut("Update")]
-        public IActionResult Update([FromBody] ACPDRequest input)
+        public IActionResult Update([FromBody] ACPDUpdateRequest input)
         {
             string storedProcedure = "dbo.usp_UpdateACPD";
             try
@@ -101,7 +130,7 @@ namespace Mercuryfire.API.Controllers
                     {
                         command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                        command.Parameters.AddWithValue("@Name", input.ACPD_Sname);
+                        command.Parameters.AddWithValue("@Name", input.ACPD_SID);
 
                         return Ok($"Create Complete");
                     }
@@ -114,7 +143,7 @@ namespace Mercuryfire.API.Controllers
         }
 
         [HttpDelete("Delete")]
-        public IActionResult Delete([FromBody] ACPDRequest input)
+        public IActionResult Delete([FromBody] ACPDDeleteRequest input)
         {
             string storedProcedure = "dbo.usp_DeleteACPD";
             try
@@ -127,7 +156,7 @@ namespace Mercuryfire.API.Controllers
                     {
                         command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                        command.Parameters.AddWithValue("@Name", input.ACPD_Sname);
+                        command.Parameters.AddWithValue("@Name", input.ACPD_SID);
 
                         return Ok($"Create Complete");
                     }
