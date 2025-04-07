@@ -193,9 +193,16 @@ namespace Mercuryfire.API.Controllers
                     {
                         command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                        command.Parameters.AddWithValue("@Name", input.ACPD_SID);
+                        command.Parameters.AddWithValue("@ACPD_SID", input.ACPD_SID);
+                        command.Parameters.AddWithValue("@ACPD_UPDID", input.ACPD_UPDID);
 
-                        return Ok($"Create Complete");
+                        command.ExecuteNonQuery();
+
+                        return Ok(new
+                        {
+                            Message = "Delete Complete",
+                            DeletedSID = input.ACPD_SID
+                        });
                     }
                 }
             }
