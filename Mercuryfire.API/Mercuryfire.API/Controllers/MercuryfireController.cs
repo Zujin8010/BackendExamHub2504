@@ -116,7 +116,7 @@ namespace Mercuryfire.API.Controllers
             }
         }
 
-        [HttpPut("Update")]
+        [HttpPost("Update")]
         public IActionResult Update([FromBody] ACPDUpdateRequest input)
         {
             string storedProcedure = "dbo.usp_UpdateACPD";
@@ -130,9 +130,46 @@ namespace Mercuryfire.API.Controllers
                     {
                         command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                        command.Parameters.AddWithValue("@Name", input.ACPD_SID);
-
-                        return Ok($"Create Complete");
+                        command.Parameters.AddWithValue("@ACPD_SID", input.ACPD_SID);
+                        command.Parameters.AddWithValue("@ACPD_Cname", input.ACPD_Cname);
+                        command.Parameters.AddWithValue("@ACPD_Ename", input.ACPD_Ename);
+                        command.Parameters.AddWithValue("@ACPD_Sname", input.ACPD_Sname);
+                        command.Parameters.AddWithValue("@ACPD_Email", input.ACPD_Email);
+                        command.Parameters.AddWithValue("@ACPD_Status", input.ACPD_Status);
+                        command.Parameters.AddWithValue("@ACPD_Stop", input.ACPD_Stop);
+                        command.Parameters.AddWithValue("@ACPD_StopMemo", input.ACPD_StopMemo);
+                        command.Parameters.AddWithValue("@ACPD_LoginPWD", input.ACPD_LoginPWD);
+                        command.Parameters.AddWithValue("@ACPD_Memo", input.ACPD_Memo);
+                        command.Parameters.AddWithValue("@ACPD_UPDID", input.ACPD_UPDID);
+                        
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                var result = new List<object>();
+                                while (reader.Read())
+                                {
+                                    var updatedRecord = new
+                                    {
+                                        ACPD_SID = reader["ACPD_SID"].ToString(),
+                                        ACPD_Cname = reader["ACPD_Cname"].ToString(),
+                                        ACPD_Ename = reader["ACPD_Ename"].ToString(),
+                                        ACPD_Sname = reader["ACPD_Sname"].ToString(),
+                                        ACPD_Email = reader["ACPD_Email"].ToString(),
+                                        ACPD_Status = reader["ACPD_Status"],
+                                        ACPD_Stop = reader["ACPD_Stop"].ToString(),
+                                        ACPD_UPDDateTime = reader["ACPD_UPDDateTime"].ToString(),
+                                        ACPD_UPDID = reader["ACPD_UPDID"].ToString()
+                                    };
+                                    result.Add(updatedRecord);
+                                }
+                                return Ok(result);
+                            }
+                            else
+                            {
+                                return NotFound("請重新確認輸入資訊");
+                            }
+                        }
                     }
                 }
             }
